@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Slab";
     src: url("../misc/ZillaSlab-Medium.woff2") format("woff2");
@@ -37,5 +38,14 @@ div.column {
 }
 
 .no-bullet {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  li > img {
+      $size: 16px;
+      width: $size; 
+      height: $size;
+      padding-right: 12px;
+  }
 }
 

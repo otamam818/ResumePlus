@@ -35,4 +35,18 @@ div.column {
   display: flex;
 }
 
+.no-bullet {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+.no-bullet li > img {
+  width: 16px;
+  height: 16px;
+  padding-right: 12px;
+}
+
 /*# sourceMappingURL=style.css.map */
