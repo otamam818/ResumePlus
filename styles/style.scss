@@ -61,6 +61,7 @@ div.column {
 
 .contact-info {
   @extend .content-holder;
+  font-size: small;
   div {
     text-align: center;
   }
@@ -78,7 +79,7 @@ div.column {
 .education-info {
     @extend .contact-info;
     img {
-        width: 115px;
+        width: 60px;
         margin-right: 12px;
     }
     background-color: #094183;
