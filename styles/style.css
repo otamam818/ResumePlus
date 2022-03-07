@@ -3,7 +3,7 @@
   src: url("../misc/ZillaSlab-Medium.woff2") format("woff2");
 }
 body {
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-family: Slab;
   background-color: #fce4ec;
@@ -39,16 +39,20 @@ div.column {
   width: 50%;
 }
 
-.side-content {
-  padding-left: 25px;
-}
-
-.content-holder, .contact-info {
+.content-holder, .contact-info, .education-info {
   display: flex;
   justify-content: space-evenly;
 }
 
-.contact-info {
+.side-content {
+  padding-left: 25px;
+}
+
+.main-content {
+  width: 110%;
+}
+
+.contact-info, .education-info {
   background-color: #ffcdd2;
   padding: 10px;
   border-radius: 10px;
@@ -56,8 +60,19 @@ div.column {
   position: relative;
   left: -4px;
 }
-.contact-info div {
+.contact-info div, .education-info div {
   text-align: center;
+}
+
+.education-info {
+  background-color: #094183;
+  background: linear-gradient(124deg, #094183 43%, #072e5d 68%, #051f3d 100%);
+  box-shadow: 0px 0px 3px #141631;
+  color: white;
+}
+.education-info img {
+  width: 115px;
+  margin-right: 12px;
 }
 
 .no-bullet {

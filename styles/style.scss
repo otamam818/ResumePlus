@@ -10,7 +10,7 @@
 }
 
 body {
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-family: Slab;
   background-color: #fce4ec;
@@ -46,13 +46,17 @@ div.column {
   width: 50%;
 }
 
+.content-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .side-content {
   padding-left: 25px;
 }
 
-.content-holder {
-  display: flex;
-  justify-content: space-evenly;
+.main-content {
+    width: 110%;
 }
 
 .contact-info {
@@ -69,6 +73,18 @@ div.column {
   // The position of the items
   position: relative;
   left: -4px;
+}
+
+.education-info {
+    @extend .contact-info;
+    img {
+        width: 115px;
+        margin-right: 12px;
+    }
+    background-color: #094183;
+    background: linear-gradient(124deg, rgba(9,65,131,1) 43%, rgba(7,46,93,1) 68%, rgba(5,31,61,1) 100%);
+    box-shadow: 0px 0px 3px #141631;
+    color: white;
 }
 
 .no-bullet {
