@@ -10,7 +10,12 @@ body {
   padding: 4px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #4e342e;
   border-bottom: 3px solid #795548;
   width: fit-content;
@@ -43,6 +48,14 @@ div.column {
   justify-content: space-evenly;
 }
 
+.contact-info {
+  background-color: #ffcdd2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #995171;
+  position: relative;
+  left: -4px;
+}
 .contact-info div {
   text-align: center;
 }
@@ -66,6 +79,24 @@ div.column {
   margin: auto;
   height: 20px;
   padding-bottom: 10px;
+}
+
+.experience-info {
+  list-style-image: url("../images/calendar-small.png");
+  padding-left: 10px;
+}
+.experience-info strong {
+  background-color: #37474f;
+  color: white;
+  border-radius: 5px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+.experience-info li {
+  margin-bottom: 8px;
 }
 
 a {
