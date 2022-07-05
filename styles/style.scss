@@ -12,6 +12,12 @@
               0 16px 16px rgba(0,0,0,0.12);
 }
 
+@mixin layered-shadow2() {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16);
+}
+
 @font-face {
   font-family: "Slab";
   src: url("../misc/ZillaSlab-Medium.woff2") format("woff2");
@@ -141,6 +147,7 @@ div.column {
   strong {
       background-color: #37474f;
       color: white;
+      display: block;
       border-radius: 05px;
       $height: 2px;
       $width: 6px;
@@ -151,7 +158,8 @@ div.column {
           top: $height;
           bottom: $height;
       }
-      margin-bottom: $height;
+      margin-bottom: -12px;
+      @include layered-shadow2();
   }
   li {
       margin-bottom: 22px;
