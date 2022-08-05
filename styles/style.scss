@@ -13,9 +13,10 @@
 body {
   width: 96%;
   margin: auto;
-  font-family: SansSerif;
+  font-family: Barlow;
   background-color: #fce4ec;
   padding: 4px;
+  color: rgba(23, 8, 8, 0.81);
 }
 
 h1,
@@ -25,7 +26,9 @@ h4,
 h5,
 h6 {
   color: #4e342e;
-  border-bottom: 3px solid #795548;
+  // border-bottom: 3px solid #795548;
+  margin-bottom: 10px;
+  letter-spacing: -0.025em;
   width: fit-content;
 }
 
@@ -80,6 +83,13 @@ div.column {
     padding-right: 12px;
 }
 
+.summary-info {
+    line-height: 1.45;
+}
+.contact-info, .education-info {
+    margin-bottom: 35px;
+}
+
 .contact-info {
   @extend .content-holder;
   font-size: small;
@@ -123,6 +133,7 @@ div.column {
 .experience-info {
   list-style-image: url(../images/calendar-small.png);
   padding-left: 10px;
+  line-height: 1.5;
   strong {
       background-color: #37474f;
       color: white;
@@ -137,17 +148,18 @@ div.column {
           top: $height;
           bottom: $height;
       }
-      margin-bottom: -12px;
-      @include shadows.layered-shadow2();
+      margin-bottom: -6px;
+      @include shadows.layered-shadow1();
   }
   li {
-      margin-bottom: 22px;
+      margin-bottom: 14px;
   }
 }
 
 /* ------------------ Side Content ------------------ */
 .side-content {
   padding-left: 12px;
+  line-height: 1.6;
 }
 
 .contact-image {
