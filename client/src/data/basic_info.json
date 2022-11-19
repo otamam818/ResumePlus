@@ -32,8 +32,8 @@
         "component" : "link",
         "props" : {
           "reference" : "https://www.linkedin.com/in/tahmin-ahmed-5998a0200/",
-          "imageName" : "gps.png",
-          "info" : "Melbourne, Australia"
+          "imageName" : "linkedin.png",
+          "info" : "LinkedIn"
         }
       },
       {
