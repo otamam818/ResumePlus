@@ -33,7 +33,7 @@
         "props" : {
           "reference" : "https://www.linkedin.com/in/tahmin-ahmed-5998a0200/",
           "imageName" : "linkedin.png",
-          "info" : "LinkedIn"
+          "info" : "Tahmin Ahmed"
         }
       },
       {
@@ -61,32 +61,50 @@
       {
         "title" : "Sterling Family Artefacts Website",
         "fromToDate" : "July 27th, 2022 - November 8th 2022",
-        "description" : "Made a MERN website for a client to store his family artefacts"
+        "description" : "Made a MERN website for a client to store his family artefacts",
+        "stack" : [
+          "MongoDB",
+          "ExpressJS",
+          "ReactJS",
+          "NodeJS"
+        ]
       },
       {
         "title" : "Notemaker",
         "fromToDate" : "September 19th, 2021 - 5th December, 2021",
-        "description" : "Programmed an GUI-based app that helps students take simple but fast notes, designed to replace notepad.exe"
+        "description" : "Programmed an GUI-based app that helps students take simple but fast notes, designed to replace notepad.exe",
+        "stack" : [
+          "PySide6",
+          "Typing (core)",
+          "Subproccess (core)"
+        ]
       },
       {
         "title" : "Flashcards",
         "fromToDate" : "June 21st, 2021 - July 28th, 2021",
-        "description" : "Programmed a GUI-based flashcards app using C# and Unity"
+        "description" : "Programmed a GUI-based flashcards app using C# and Unity",
+        "stack" : [
+          "Unity"
+        ]
       },
       {
         "title" : "COVIDPearsonCorrelation",
         "fromToDate" : "October 25th, 2021",
-        "description" : "Implemented a script that checks the pearson correlation of COVID between two different countries"
+        "description" : "Implemented a script that checks the pearson correlation of COVID between two different countries",
+        "stack" : [
+          "Pandas"
+        ]
       },
       {
         "title" : "WordDataScraper",
         "fromToDate" : "August 31st, 2021 - September 3, 2021",
-        "description" : "Created an input-based TUI that scrapes words from articles (as plain text) for finding trends in topics"
-      },
-      {
-        "title" : "MarkdownConverterPlus",
-        "fromToDate" : "November 8, 2021",
-        "description" : "Made an app that converts Markdown to a HTML file styled to my own liking"
+        "description" : "Created an input-based TUI that scrapes words from articles (as plain text) for finding trends in topics",
+        "stack" : [
+          "PyperClip",
+          "Re (regex)",
+          "NLTK",
+          "MatplotLib"
+        ]
       }
     ]
   },
