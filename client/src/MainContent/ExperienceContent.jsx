@@ -13,9 +13,25 @@ function ExperienceContent( { data } ) {
 }
 
 function ExperienceAtom ( { data, index } ) {
+  console.log(data);
+  let stackData = data.stack.map ( (value, index) => {
+    return (
+      <div className="stack-atom" key={index}>
+        {value}
+      </div>
+    )
+  });
   return (
-    <li key={index}><strong>{data.title}: {data.fromToDate} </strong>
-      <br/>{data.description}</li>
+    <div className="experience-atom">
+      <div className="title-data">
+        <h3>{data.title}</h3>
+        <span>{data.fromToDate}</span>
+      </div>
+      <div className="stack-data">
+        {stackData}
+      </div>
+      <p>{data.description}</p>
+    </div>
   )
 }
 

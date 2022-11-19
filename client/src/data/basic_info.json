@@ -84,15 +84,9 @@
         "fromToDate" : "June 21st, 2021 - July 28th, 2021",
         "description" : "Programmed a GUI-based flashcards app using C# and Unity",
         "stack" : [
-          "Unity"
-        ]
-      },
-      {
-        "title" : "COVIDPearsonCorrelation",
-        "fromToDate" : "October 25th, 2021",
-        "description" : "Implemented a script that checks the pearson correlation of COVID between two different countries",
-        "stack" : [
-          "Pandas"
+          "Unity",
+          "Object-Oriented Programming",
+          "C#"
         ]
       },
       {
