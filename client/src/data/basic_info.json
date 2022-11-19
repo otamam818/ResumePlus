@@ -1,0 +1,180 @@
+{
+  "basicInfo": {
+    "textSection" : {
+      "name" : "Tahmin Ahmed",
+      "jobRole" : "Developer"
+    },
+
+    "contactInfo" : [
+      {
+        "component" : "link",
+        "props" : {
+          "reference" : "mailto:otamam818@gmail.com",
+          "imageName" : "email.png",
+          "info" : "otamam818 @gmail.com"
+        }
+      },
+      {
+        "component" : "generic",
+        "props" : {
+          "imageName" : "phone.png",
+          "info" : "+61 488 726 822"
+        }
+      },
+      {
+        "component" : "generic",
+        "props" : {
+          "imageName" : "gps.png",
+          "info" : "Melbourne, Australia"
+        }
+      },
+      {
+        "component" : "link",
+        "props" : {
+          "reference" : "https://www.linkedin.com/in/tahmin-ahmed-5998a0200/",
+          "imageName" : "gps.png",
+          "info" : "Melbourne, Australia"
+        }
+      },
+      {
+        "component" : "link",
+        "props" : {
+          "reference" : "https://github.com/otamam818",
+          "imageName" : "github.png",
+          "info" : "otamam818"
+        }
+      }
+    ]
+  },
+  "contentInfo" : {
+    "summary" : {
+      "info" : "A passionate learner and problem solver who can can think on his feet, professionally work in teams with excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
+    },
+    "educationContent" : {
+      "imageName" : "unimelb.svg",
+      "universityName" : "University of Melbourne",
+      "fromToDate" : "February 2020 - June 2023",
+      "degreeName" : "Bachelor of Science",
+      "majorName" : "Computing and Software Systems"
+    },
+    "experienceInfo" : [
+      {
+        "title" : "Sterling Family Artefacts Website",
+        "fromToDate" : "July 27th, 2022 - November 8th 2022",
+        "description" : "Made a MERN website for a client to store his family artefacts"
+      },
+      {
+        "title" : "Notemaker",
+        "fromToDate" : "September 19th, 2021 - 5th December, 2021",
+        "description" : "Programmed an GUI-based app that helps students take simple but fast notes, designed to replace notepad.exe"
+      },
+      {
+        "title" : "Flashcards",
+        "fromToDate" : "June 21st, 2021 - July 28th, 2021",
+        "description" : "Programmed a GUI-based flashcards app using C# and Unity"
+      },
+      {
+        "title" : "COVIDPearsonCorrelation",
+        "fromToDate" : "October 25th, 2021",
+        "description" : "Implemented a script that checks the pearson correlation of COVID between two different countries"
+      },
+      {
+        "title" : "WordDataScraper",
+        "fromToDate" : "August 31st, 2021 - September 3, 2021",
+        "description" : "Created an input-based TUI that scrapes words from articles (as plain text) for finding trends in topics"
+      },
+      {
+        "title" : "MarkdownConverterPlus",
+        "fromToDate" : "November 8, 2021",
+        "description" : "Made an app that converts Markdown to a HTML file styled to my own liking"
+      }
+    ]
+  },
+
+  "sideContent" : {
+    "programmingSkills" : [
+      {
+        "image" : "js.png",
+        "title" : "JavaScript",
+        "subskills" : [
+          "React",
+          "Handlebars",
+          "NodeJS",
+          "ExpressJS"
+        ]
+      },
+      {
+        "image" : "css.png",
+        "title" : "CSS",
+        "subskills" : [
+          "Animations",
+          "Flexbox", 
+          "Sass"
+        ]
+      },
+      {
+        "image" : "python.png",
+        "title" : "Python",
+        "subskills" : [
+          "Subprocess",
+          "Automation",
+          "Pandas",
+          "MatPlotLib",
+          "BeautifulSoup",
+          "Sklearn",
+          "PySide6",
+          "RichAPI"
+        ]
+      },
+      {
+        "image" : "java.png",
+        "title" : "Java",
+        "subskills" : [
+          "Maven",
+          "Concurrency",
+          "Socket Programming",
+          "Spring Boot",
+          "Apache Commons"
+        ]
+      },
+      {
+        "image" : "code.webp",
+        "title" : "Programming Paradigms",
+        "subskills" : [
+          "Object-Oriented Programming",
+          "Functional Programming"
+        ]
+      },
+      {
+        "image" : "git.png",
+        "title" : "Git",
+        "subskills" : []
+      },
+      {
+        "image" : "bash.png",
+        "title" : "Bash",
+        "subskills" : []
+      },
+      {
+        "image" : "unity.png",
+        "title" : "Unity",
+        "subskills" : []
+      }
+    ],
+    "otherSkills" : [
+      {
+        "image" : "vim.png",
+        "title" : "Vim"
+      },
+      {
+        "image" : "ppt.png",
+        "title" : "PowerPoint"
+      },
+      {
+        "image" : "collab.png",
+        "title" : "Collaboration"
+      }
+    ]
+  }
+}
+
