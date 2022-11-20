@@ -12,7 +12,7 @@ function ExperienceContent( { data } ) {
   )
 }
 
-function ExperienceAtom ( { data, index } ) {
+function ExperienceAtom ( { data } ) {
   console.log(data);
   let stackData = data.stack.map ( (value, index) => {
     return (
