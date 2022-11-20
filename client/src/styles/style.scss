@@ -199,6 +199,16 @@ div.column {
         color: white;
         margin: 0;
       }
+
+      .left {
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        height: 15px;
+        margin-right: 5px;
+      }
     }
 
     .stack-data {
@@ -225,9 +235,9 @@ div.column {
   padding: 0 12px;
   line-height: 1.6;
   margin-top: 14px;
-  background-color: hsl(340deg, 100%, 89%);
+  background-color: hsl(340deg, 80%, 93%);
   border-radius: 10px;
-  box-shadow: inset 0 0 7px #88121d1a, 0 2px 3px #0000007d;
+  box-shadow: inset 0 0 7px rgba(136, 18, 29, 0.19);
 
   & ul li ul li {
     letter-spacing: -0.035em;

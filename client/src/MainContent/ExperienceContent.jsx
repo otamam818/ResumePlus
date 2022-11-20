@@ -21,10 +21,14 @@ function ExperienceAtom ( { data } ) {
       </div>
     )
   });
+
   return (
     <div className="experience-atom">
       <div className="title-data">
-        <h3>{data.title}</h3>
+        <div className="left">
+          <img src={require("../images/others/fast-forward-white.png")} alt="" />
+          <h3>{data.title}</h3>
+        </div>
         <span>{data.fromToDate}</span>
       </div>
       <div className="stack-data">
