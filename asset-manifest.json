@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ResumePlus/static/css/main.b29dec4a.css",
+    "main.js": "/ResumePlus/static/js/main.4c272505.js",
+    "static/media/vim.png": "/ResumePlus/static/media/vim.6c31f5008fbbc403e902.png",
+    "static/media/Ubuntu-Regular.woff2": "/ResumePlus/static/media/Ubuntu-Regular.f0c95172522d9ce0e179.woff2",
+    "static/media/linkedin.png": "/ResumePlus/static/media/linkedin.f20beebf50527ba1d65e.png",
+    "static/media/unimelb.svg": "/ResumePlus/static/media/unimelb.b0bd3d6f768768fc0132.svg",
+    "static/media/github.png": "/ResumePlus/static/media/github.ecf329c2c06a1f41fae4.png",
+    "static/media/ppt.png": "/ResumePlus/static/media/ppt.8b540cef6003aef0e01f.png",
+    "static/media/css.png": "/ResumePlus/static/media/css.59116403d1089cb14ebe.png",
+    "static/media/gps.png": "/ResumePlus/static/media/gps.f42c022948ffea798741.png",
+    "static/media/Barlow-Medium.woff2": "/ResumePlus/static/media/Barlow-Medium.34274f150cb91719727d.woff2",
+    "static/media/ferris.png": "/ResumePlus/static/media/ferris.b3cbf330fd444b58058b.png",
+    "static/media/collab.png": "/ResumePlus/static/media/collab.c9bbdd2c7eb0d1e93abf.png",
+    "static/media/bash.png": "/ResumePlus/static/media/bash.d2e2cfd618980c953503.png",
+    "static/media/phone.png": "/ResumePlus/static/media/phone.0a3b0c37f9f1b5c30279.png",
+    "static/media/email.png": "/ResumePlus/static/media/email.34a6efb211c2dd5a1afb.png",
+    "static/media/csharp.png": "/ResumePlus/static/media/csharp.7f58ab59750a276a404e.png",
+    "static/media/java.png": "/ResumePlus/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/unity.png": "/ResumePlus/static/media/unity.31a20e06f004adec21fa.png",
+    "static/media/fast-forward-white.png": "/ResumePlus/static/media/fast-forward-white.379791201324b187ba94.png",
+    "static/media/python.png": "/ResumePlus/static/media/python.8cef7a09633a8af7127e.png",
+    "static/media/fast-forward.png": "/ResumePlus/static/media/fast-forward.026dd689d2426687a430.png",
+    "static/media/code.webp": "/ResumePlus/static/media/code.fcff9eeb7017479a6924.webp",
+    "index.html": "/ResumePlus/index.html",
+    "main.b29dec4a.css.map": "/ResumePlus/static/css/main.b29dec4a.css.map",
+    "main.4c272505.js.map": "/ResumePlus/static/js/main.4c272505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b29dec4a.css",
+    "static/js/main.4c272505.js"
+  ]
+}
