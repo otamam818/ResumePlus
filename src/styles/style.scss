@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #4e342e;
+  color: hsl(11deg, 26%, 18%);
   // border-bottom: 3px solid #795548;
   margin-bottom: 10px;
   letter-spacing: -0.025em;
@@ -69,7 +69,7 @@ div.column {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    width: 525px;
+    width: 540px;
     margin: 0;
 
     & > div, & > a {
@@ -79,6 +79,7 @@ div.column {
       padding: 5px 10px;
       border-radius: 8px;
       @include shadows.layered-shadow1();
+      margin: 0 10px;
     }
 
     img {
@@ -86,6 +87,19 @@ div.column {
       // border-radius: 100%;
       height: $size;
       // width: $size;
+    }
+  }
+
+  .text-section {
+    & > * {
+      margin: 0;
+    }
+
+    p {
+      font-size: 19px;
+      padding-left: 4px;
+      font-variant: all-petite-caps;
+      color: hsl(340deg, 14.5%, 38%);
     }
   }
 }
@@ -176,38 +190,74 @@ div.column {
 }
 
 .experience-info {
-  list-style-image: url(../images/calendar-small.png);
-  padding-left: 10px;
-  line-height: 1.5;
-  strong {
-      background-color: #37474f;
-      color: white;
-      display: block;
-      border-radius: 05px;
-      $height: 2px;
-      $width: 6px;
-      padding: {
-          right: $width;
-          left: $width;
+  padding: 0;
 
-          top: $height;
-          bottom: $height;
-      }
-      margin-bottom: -19px;
+  .experience-atom {
+    padding-bottom: 15px;
+
+    .title-data {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: hsl(0deg, 65%, 27%);
+      box-sizing: border-box;
+      padding: 5px 15px;
+      border-radius: 6px;
       @include shadows.layered-shadow2();
-  }
-  li {
-      margin-bottom: 22px;
+      margin-bottom: 20px;
+      color: white;
+      text-shadow: 0 2px 3px #00000038;
+
+      h3 {
+        color: white;
+        margin: 0;
+      }
+
+      .left {
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+
+    .stack-data {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      z-index: 2;
+
+      .stack-atom {
+        background-color: hsl(256deg, 20%, 87%);
+        color: black;
+        border-radius: 50px;
+        padding: 6px 9px;
+        box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3098039216), 0 5px 3px -4px rgba(0, 0, 0, 0.49);
+        font-variant-caps: petite-caps;
+      }
+    }
   }
 }
 
 
 /* ------------------ Side Content ------------------ */
 .side-content {
-  padding-left: 12px;
+  padding: 0 12px;
   line-height: 1.6;
+  margin-top: 14px;
+  background-color: hsl(340deg, 80%, 93%);
+  border-radius: 10px;
+  box-shadow: inset 0 0 7px rgba(136, 18, 29, 0.19);
+
   & ul li ul li {
     letter-spacing: -0.035em;
+  }
+
+  h2 {
+    margin-top: 5px;
   }
 }
 
@@ -217,5 +267,9 @@ div.column {
   $size: 20px;
   height: $size;
   padding: 7px;
+}
+
+footer {
+  opacity: 0.7;
 }
 
