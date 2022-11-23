@@ -10,7 +10,7 @@ function Resume () {
       <div className="basic-info">
         <div className="text-section">
           <h1 id="tahmin-ahmed">{data.basicInfo.textSection.name}</h1>
-          <p><strong>Job role: </strong>{data.basicInfo.textSection.jobRole}</p>
+          <p>{data.basicInfo.textSection.jobRole}</p>
         </div>
 
         <ContactInfo
@@ -26,6 +26,15 @@ function Resume () {
           data={data.sideContent}
         />
       </div>
+      <footer>
+        This page is a printable version of
+        {/* TODO: Find and use the space character*/}
+        <a href="https://otamam818.github.io/ResumePlus/">
+          https://otamam818.github.io/ResumePlus/
+        </a> <br/>
+        As such, while it can be printed accurately, it does not have a suitable
+        mobile version
+      </footer>
     </>
   )
 }

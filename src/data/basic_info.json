@@ -2,7 +2,7 @@
   "basicInfo": {
     "textSection" : {
       "name" : "Tahmin Ahmed",
-      "jobRole" : "Developer"
+      "jobRole" : "Software Developer"
     },
 
     "contactInfo" : [
@@ -61,7 +61,7 @@
       {
         "title" : "Sterling Family Artefacts Website",
         "fromToDate" : "July 27th, 2022 - November 8th 2022",
-        "description" : "Made a MERN website for a client to store his family artefacts",
+        "description" : "Made a CRUD application that helped our client store his family's artefacts",
         "stack" : [
           "MongoDB",
           "ExpressJS",
