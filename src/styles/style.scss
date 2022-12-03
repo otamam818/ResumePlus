@@ -71,6 +71,7 @@ div.column {
     align-items: stretch;
     width: 540px;
     margin: 0;
+    margin-bottom: 8px;
 
     & > div, & > a {
       @extend .content-holder;
