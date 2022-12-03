@@ -48,7 +48,7 @@
   },
   "contentInfo" : {
     "summary" : {
-      "info" : "A passionate learner and problem solver who can can think on his feet, professionally work in teams with excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
+      "info" : "A passionate learner and problem solver capable of delivering exceptional outcomes from design to software, who follows best practices and works professionally in teams with trust, respect, and excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
     },
     "educationContent" : {
       "imageName" : "unimelb.svg",
@@ -106,22 +106,14 @@
   "sideContent" : {
     "programmingSkills" : [
       {
-        "image" : "js.png",
-        "title" : "JavaScript",
+        "image" : "laptop.png",
+        "title" : "Web Development",
         "subskills" : [
-          "React",
-          "Handlebars",
-          "NodeJS",
-          "ExpressJS"
-        ]
-      },
-      {
-        "image" : "css.png",
-        "title" : "CSS",
-        "subskills" : [
-          "Animations",
-          "Flexbox", 
-          "Sass"
+          "MERN stack",
+          "TypeScript",
+          "NextJS",
+          "Sass",
+          "Animations"
         ]
       },
       {
@@ -143,18 +135,27 @@
         "title" : "Java",
         "subskills" : [
           "Maven",
-          "Concurrency",
-          "Socket Programming",
           "Spring Boot",
           "Apache Commons"
+        ]
+      },
+      {
+        "image" : "ferris.png",
+        "title" : "Rust",
+        "subskills" : [
+          "Clap CLI",
+          "Serde (JSON/TOML)",
+          "Chrono",
+          "Tauri"
         ]
       },
       {
         "image" : "code.webp",
         "title" : "Programming Paradigms",
         "subskills" : [
-          "Object-Oriented Programming",
-          "Functional Programming"
+          "Multi-paradigm Programming",
+          "Socket Programming",
+          "Multithreading and Concurrency"
         ]
       },
       {
@@ -176,15 +177,15 @@
     "otherSkills" : [
       {
         "image" : "vim.png",
-        "title" : "Vim"
+        "title" : "Vim Keybindings"
       },
       {
-        "image" : "ppt.png",
-        "title" : "PowerPoint"
+        "image" : "Office.png",
+        "title" : "MSFT Office"
       },
       {
         "image" : "collab.png",
-        "title" : "Collaboration"
+        "title" : "Agile Workflows"
       }
     ]
   }

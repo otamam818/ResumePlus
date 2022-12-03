@@ -130,15 +130,15 @@ div.column {
     text-align: center;
   }
   padding: 10px;
+  padding-right: 0;
   border-radius: 10px;
+  // The position of the items
+  position: relative;
 
   img {
       height: 35px;
       // margin-right: 12px;
   }
-  // The position of the items
-  position: relative;
-  left: -4px;
 }
 
 .education-info {
@@ -247,7 +247,7 @@ div.column {
 .side-content {
   padding: 0 12px;
   line-height: 1.6;
-  margin-top: 14px;
+  margin: 12px 14px;
   background-color: hsl(340deg, 80%, 93%);
   border-radius: 10px;
   box-shadow: inset 0 0 7px rgba(136, 18, 29, 0.19);
