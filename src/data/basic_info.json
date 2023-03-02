@@ -2,7 +2,7 @@
   "basicInfo": {
     "textSection" : {
       "name" : "Tahmin Ahmed",
-      "jobRole" : "Software Developer"
+      "jobRole" : "Software Engineer"
     },
 
     "contactInfo" : [
@@ -61,18 +61,30 @@
       {
         "title" : "Personal Finance Tracker (in development)",
         "fromToDate" : "November 28th, 2022 - present",
-        "description" : "Currently working on a future-FOSS application that records finances",
+        "description" : "A future-FOSS application that stores financial records and provides insights and calculations",
         "stack" : [
-          "Serde",
-          "Tauri",
           "ReactJS",
-          "Sass"
+          "ReduxJS",
+          "Sass",
+          "Tauri",
+          "Serde"
+        ]
+      },
+      {
+        "title" : "Personal Blog (in development)",
+        "fromToDate" : "February 19th, 2023 - present",
+        "description" : "A code-documented blog I am making by using the best of new, stable and customized technology",
+        "stack" : [
+          "WASM",
+          "Test-driven development",
+          "GitHub Actions",
+          "Markdown Compilation"
         ]
       },
       {
         "title" : "Family Website (Unfinished)",
-        "fromToDate" : "December 16th, 2022 - June 1st, 2023",
-        "description" : "A website I was building for my own family for our combined benefit of IoT",
+        "fromToDate" : "December 16th, 2022 - January 1st, 2023",
+        "description" : "A website I was building for my own family as a privacy-oriented Google-Drive replacement",
         "stack" : [
           "Axum",
           "tower-http",
@@ -83,22 +95,12 @@
       {
         "title" : "Sterling Family Artefacts Website",
         "fromToDate" : "July 27th, 2022 - November 8th 2022",
-        "description" : "Made a CRUD application with a team that helped our client store his family's artefacts",
+        "description" : "Made a CRUD application with a team that helped a client store his family's artefacts",
         "stack" : [
           "MongoDB",
           "ExpressJS",
           "ReactJS",
           "NodeJS"
-        ]
-      },
-      {
-        "title" : "Notemaker",
-        "fromToDate" : "September 19th, 2021 - 5th December, 2021",
-        "description" : "Programmed an GUI-based app that helps students take simple but fast notes, designed to replace notepad.exe",
-        "stack" : [
-          "PySide6",
-          "Typing (core)",
-          "Subproccess (core)"
         ]
       }
     ]
@@ -107,24 +109,14 @@
   "sideContent" : {
     "programmingSkills" : [
       {
-        "image" : "ferris.png",
-        "title" : "Rust",
-        "subskills" : [
-          "Clap (CLI)",
-          "Serde (JSON/TOML)",
-          "Axum (web-server)",
-          "Tauri (GUI)"
-        ]
-      },
-      {
         "image" : "laptop.png",
         "title" : "Web Development",
         "subskills" : [
-          "MERN stack",
           "TypeScript",
+          "MERN stack",
+          "ReduxJS",
           "NextJS",
-          "Sass",
-          "Animations"
+          "Sass & Animations"
         ]
       },
       {
@@ -134,11 +126,9 @@
           "Subprocess",
           "Automation",
           "Pandas",
-          "MatPlotLib",
           "BeautifulSoup",
           "Sklearn",
-          "PySide6",
-          "RichAPI"
+          "PySide6"
         ]
       },
       {
@@ -151,12 +141,23 @@
         ]
       },
       {
+        "image" : "ferris.png",
+        "title" : "Rust",
+        "subskills" : [
+          "Clap (CLI)",
+          "Serde (JSON/TOML)",
+          "Axum (web-server)",
+          "Tauri (GUI)"
+        ]
+      },
+      {
         "image" : "code.webp",
-        "title" : "Programming Paradigms",
+        "title" : "Software Development",
         "subskills" : [
           "Multi-paradigm Programming",
-          "Socket Programming",
-          "Multithreading and Concurrency"
+          "Experiment driven development",
+          "Test driven development",
+          "Cross-browser development"
         ]
       },
       {
@@ -168,11 +169,6 @@
         "image" : "bash.png",
         "title" : "Bash",
         "subskills" : []
-      },
-      {
-        "image" : "unity.png",
-        "title" : "Unity",
-        "subskills" : []
       }
     ],
     "otherSkills" : [
@@ -183,6 +179,10 @@
       {
         "image" : "Office.png",
         "title" : "MSFT Office"
+      },
+      {
+        "image" : "communication.png",
+        "title" : "Effective Communication"
       },
       {
         "image" : "collab.png",
