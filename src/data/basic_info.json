@@ -48,7 +48,7 @@
   },
   "contentInfo" : {
     "summary" : {
-      "info" : "A passionate learner and problem solver capable of delivering exceptional outcomes from design to software, who follows best practices and works professionally in teams with trust, respect, and excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
+      "info" : "A passionate learner and problem solver capable of delivering exceptional outcomes from design to software. Follows best practices and works professionally in teams with trust, respect, and excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
     },
     "educationContent" : {
       "imageName" : "unimelb.svg",
@@ -59,9 +59,31 @@
     },
     "experienceInfo" : [
       {
+        "title" : "Personal Finance Tracker (in development)",
+        "fromToDate" : "November 28th, 2022 - present",
+        "description" : "Currently working on a future-FOSS application that records finances",
+        "stack" : [
+          "Serde",
+          "Tauri",
+          "ReactJS",
+          "Sass"
+        ]
+      },
+      {
+        "title" : "Family Website (Unfinished)",
+        "fromToDate" : "December 16th, 2022 - June 1st, 2023",
+        "description" : "A website I was building for my own family for our combined benefit of IoT",
+        "stack" : [
+          "Axum",
+          "tower-http",
+          "Svelte",
+          "Sass"
+        ]
+      },
+      {
         "title" : "Sterling Family Artefacts Website",
         "fromToDate" : "July 27th, 2022 - November 8th 2022",
-        "description" : "Made a CRUD application that helped our client store his family's artefacts",
+        "description" : "Made a CRUD application with a team that helped our client store his family's artefacts",
         "stack" : [
           "MongoDB",
           "ExpressJS",
@@ -78,33 +100,22 @@
           "Typing (core)",
           "Subproccess (core)"
         ]
-      },
-      {
-        "title" : "Flashcards",
-        "fromToDate" : "June 21st, 2021 - July 28th, 2021",
-        "description" : "Programmed a GUI-based flashcards app using C# and Unity",
-        "stack" : [
-          "Unity",
-          "Object-Oriented Programming",
-          "C#"
-        ]
-      },
-      {
-        "title" : "WordDataScraper",
-        "fromToDate" : "August 31st, 2021 - September 3, 2021",
-        "description" : "Created an input-based TUI that scrapes words from articles (as plain text) for finding trends in topics",
-        "stack" : [
-          "PyperClip",
-          "Re (regex)",
-          "NLTK",
-          "MatplotLib"
-        ]
       }
     ]
   },
 
   "sideContent" : {
     "programmingSkills" : [
+      {
+        "image" : "ferris.png",
+        "title" : "Rust",
+        "subskills" : [
+          "Clap (CLI)",
+          "Serde (JSON/TOML)",
+          "Axum (web-server)",
+          "Tauri (GUI)"
+        ]
+      },
       {
         "image" : "laptop.png",
         "title" : "Web Development",
@@ -137,16 +148,6 @@
           "Maven",
           "Spring Boot",
           "Apache Commons"
-        ]
-      },
-      {
-        "image" : "ferris.png",
-        "title" : "Rust",
-        "subskills" : [
-          "Clap CLI",
-          "Serde (JSON/TOML)",
-          "Chrono",
-          "Tauri"
         ]
       },
       {

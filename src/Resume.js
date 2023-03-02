@@ -27,7 +27,7 @@ function Resume () {
         />
       </div>
       <footer>
-        This page is a printable version of &nbsp;
+        This page is a alternate version of &nbsp;
         {/* TODO: Find and use the space character*/}
         <a href="https://otamam818.github.io/ResumePlus/">
           https://otamam818.github.io/ResumePlus/
