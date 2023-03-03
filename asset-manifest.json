@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ResumePlus/static/css/main.26d7bfe4.css",
-    "main.js": "/ResumePlus/static/js/main.ca086b05.js",
+    "main.css": "/ResumePlus/static/css/main.bb93f914.css",
+    "main.js": "/ResumePlus/static/js/main.0205a8b4.js",
     "static/media/vim.png": "/ResumePlus/static/media/vim.6c31f5008fbbc403e902.png",
     "static/media/Ubuntu-Regular.woff2": "/ResumePlus/static/media/Ubuntu-Regular.f0c95172522d9ce0e179.woff2",
     "static/media/linkedin.png": "/ResumePlus/static/media/linkedin.f20beebf50527ba1d65e.png",
@@ -16,6 +16,7 @@
     "static/media/collab.png": "/ResumePlus/static/media/collab.c9bbdd2c7eb0d1e93abf.png",
     "static/media/laptop.png": "/ResumePlus/static/media/laptop.008194bba9df475e7da2.png",
     "static/media/bash.png": "/ResumePlus/static/media/bash.d2e2cfd618980c953503.png",
+    "static/media/communication.png": "/ResumePlus/static/media/communication.15b095a5e24127539eda.png",
     "static/media/phone.png": "/ResumePlus/static/media/phone.0a3b0c37f9f1b5c30279.png",
     "static/media/email.png": "/ResumePlus/static/media/email.34a6efb211c2dd5a1afb.png",
     "static/media/csharp.png": "/ResumePlus/static/media/csharp.7f58ab59750a276a404e.png",
@@ -26,11 +27,11 @@
     "static/media/fast-forward.png": "/ResumePlus/static/media/fast-forward.026dd689d2426687a430.png",
     "static/media/code.webp": "/ResumePlus/static/media/code.fcff9eeb7017479a6924.webp",
     "index.html": "/ResumePlus/index.html",
-    "main.26d7bfe4.css.map": "/ResumePlus/static/css/main.26d7bfe4.css.map",
-    "main.ca086b05.js.map": "/ResumePlus/static/js/main.ca086b05.js.map"
+    "main.bb93f914.css.map": "/ResumePlus/static/css/main.bb93f914.css.map",
+    "main.0205a8b4.js.map": "/ResumePlus/static/js/main.0205a8b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d7bfe4.css",
-    "static/js/main.ca086b05.js"
+    "static/css/main.bb93f914.css",
+    "static/js/main.0205a8b4.js"
   ]
 }
