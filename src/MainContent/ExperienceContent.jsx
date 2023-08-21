@@ -13,7 +13,6 @@ function ExperienceContent( { data } ) {
 }
 
 function ExperienceAtom ( { data } ) {
-  console.log(data);
   let stackData = data.stack.map ( (value, index) => {
     return (
       <div className="stack-atom" key={index}>

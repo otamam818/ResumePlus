@@ -48,7 +48,7 @@
   },
   "contentInfo" : {
     "summary" : {
-      "info" : "A passionate learner and problem solver capable of delivering exceptional outcomes from design to software. Follows best practices and works professionally in teams with trust, respect, and excellent verbal and written communication skills. Currently within 6 months of finishing my Bachelors degree."
+      "info" : "A passionate learner and problem solver capable of delivering exceptional outcomes from software to design. Follows a growth mindset and works professionally in teams with trust, respect, and excellent verbal and written communication skills. Recently graduated from university and actively seeking a job."
     },
     "educationContent" : {
       "imageName" : "unimelb.svg",
@@ -59,9 +59,9 @@
     },
     "experienceInfo" : [
       {
-        "title" : "Personal Finance Tracker (in development)",
+        "title" : "Personal Finance Tracker",
         "fromToDate" : "November 28th, 2022 - present",
-        "description" : "A future-FOSS application that stores financial records and provides insights and calculations",
+        "description" : "A cross-platform, future-FOSS application that stores financial records and provides insights and calculations, privately storing data using a custom-made embedded database",
         "stack" : [
           "ReactJS",
           "ReduxJS",
@@ -71,31 +71,29 @@
         ]
       },
       {
-        "title" : "Personal Blog (in development)",
+        "title" : "Personal Blog",
         "fromToDate" : "February 19th, 2023 - present",
-        "description" : "A code-documented blog I am making by using the best of new, stable and customized technology",
+        "description" : "A code-documented blog I am making by using WASM to scrape and compile data from GitHub",
         "stack" : [
           "WASM",
           "Test-driven development",
-          "GitHub Actions",
-          "Markdown Compilation"
+          "GitHub Actions"
         ]
       },
       {
-        "title" : "Family Website (Unfinished)",
-        "fromToDate" : "December 16th, 2022 - January 1st, 2023",
-        "description" : "A website I was building for my own family as a privacy-oriented Google-Drive replacement",
+        "title" : "Flashcards  (not on GitHub)",
+        "fromToDate" : "June 21st, 2021 - July 28th, 2021",
+        "description" : "Programmed a GUI-based flashcards app that parses text files into flashcards",
         "stack" : [
-          "Axum",
-          "tower-http",
-          "Svelte",
-          "Sass"
+          "Unity",
+          "Object-Oriented Programming",
+          "C#"
         ]
       },
       {
         "title" : "Sterling Family Artefacts Website",
         "fromToDate" : "July 27th, 2022 - November 8th 2022",
-        "description" : "Made a CRUD application with a team that helped a client store his family's artefacts",
+        "description" : "A CRUD application made with a team, helping a client store his family's artefacts",
         "stack" : [
           "MongoDB",
           "ExpressJS",
@@ -109,13 +107,23 @@
   "sideContent" : {
     "programmingSkills" : [
       {
+        "image" : "code.webp",
+        "title" : "Software Development",
+        "subskills" : [
+          "CI-CD and Automation",
+          "Test driven development",
+          "Clean code and best practices"
+        ]
+      },
+      {
         "image" : "laptop.png",
         "title" : "Web Development",
         "subskills" : [
-          "TypeScript",
           "MERN stack",
           "ReduxJS",
           "NextJS",
+          "NodeJS",
+          "TypeScript",
           "Sass & Animations"
         ]
       },
@@ -123,12 +131,10 @@
         "image" : "python.png",
         "title" : "Python",
         "subskills" : [
-          "Subprocess",
+          "Qt for Python",
           "Automation",
           "Pandas",
-          "BeautifulSoup",
-          "Sklearn",
-          "PySide6"
+          "MatPlotLib"
         ]
       },
       {
@@ -146,19 +152,14 @@
         "subskills" : [
           "Clap (CLI)",
           "Serde (JSON/TOML)",
-          "Axum (web-server)",
+          "Axum (Web-server)",
           "Tauri (GUI)"
         ]
       },
       {
-        "image" : "code.webp",
-        "title" : "Software Development",
-        "subskills" : [
-          "Multi-paradigm Programming",
-          "Experiment driven development",
-          "Test driven development",
-          "Cross-browser development"
-        ]
+        "image" : "csharp.png",
+        "title" : "C#",
+        "subskills" : []
       },
       {
         "image" : "git.png",
@@ -173,20 +174,28 @@
     ],
     "otherSkills" : [
       {
+        "image" : "collab.png",
+        "title" : "Agile Development"
+      },
+      {
+        "image" : "trello.png",
+        "title" : "Trello"
+      },
+      {
+        "image" : "confluence.png",
+        "title" : "Confluence"
+      },
+      {
         "image" : "vim.png",
         "title" : "Vim Keybindings"
       },
       {
+        "image" : "communication.png",
+        "title" : "Collaboration"
+      },
+      {
         "image" : "Office.png",
         "title" : "MSFT Office"
-      },
-      {
-        "image" : "communication.png",
-        "title" : "Effective Communication"
-      },
-      {
-        "image" : "collab.png",
-        "title" : "Agile Workflows"
       }
     ]
   }
