@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ResumePlus/static/css/main.bb93f914.css",
-    "main.js": "/ResumePlus/static/js/main.0205a8b4.js",
+    "main.css": "/ResumePlus/static/css/main.658837cc.css",
+    "main.js": "/ResumePlus/static/js/main.8206c740.js",
     "static/media/vim.png": "/ResumePlus/static/media/vim.6c31f5008fbbc403e902.png",
     "static/media/Ubuntu-Regular.woff2": "/ResumePlus/static/media/Ubuntu-Regular.f0c95172522d9ce0e179.woff2",
     "static/media/linkedin.png": "/ResumePlus/static/media/linkedin.f20beebf50527ba1d65e.png",
@@ -13,6 +13,7 @@
     "static/media/gps.png": "/ResumePlus/static/media/gps.f42c022948ffea798741.png",
     "static/media/Barlow-Medium.woff2": "/ResumePlus/static/media/Barlow-Medium.34274f150cb91719727d.woff2",
     "static/media/ferris.png": "/ResumePlus/static/media/ferris.b3cbf330fd444b58058b.png",
+    "static/media/confluence.png": "/ResumePlus/static/media/confluence.eb315f745e674c282356.png",
     "static/media/collab.png": "/ResumePlus/static/media/collab.c9bbdd2c7eb0d1e93abf.png",
     "static/media/laptop.png": "/ResumePlus/static/media/laptop.008194bba9df475e7da2.png",
     "static/media/bash.png": "/ResumePlus/static/media/bash.d2e2cfd618980c953503.png",
@@ -27,11 +28,11 @@
     "static/media/fast-forward.png": "/ResumePlus/static/media/fast-forward.026dd689d2426687a430.png",
     "static/media/code.webp": "/ResumePlus/static/media/code.fcff9eeb7017479a6924.webp",
     "index.html": "/ResumePlus/index.html",
-    "main.bb93f914.css.map": "/ResumePlus/static/css/main.bb93f914.css.map",
-    "main.0205a8b4.js.map": "/ResumePlus/static/js/main.0205a8b4.js.map"
+    "main.658837cc.css.map": "/ResumePlus/static/css/main.658837cc.css.map",
+    "main.8206c740.js.map": "/ResumePlus/static/js/main.8206c740.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb93f914.css",
-    "static/js/main.0205a8b4.js"
+    "static/css/main.658837cc.css",
+    "static/js/main.8206c740.js"
   ]
 }
