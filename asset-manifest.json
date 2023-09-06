@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ResumePlus/static/css/main.658837cc.css",
-    "main.js": "/ResumePlus/static/js/main.8206c740.js",
+    "main.js": "/ResumePlus/static/js/main.24d33532.js",
     "static/media/vim.png": "/ResumePlus/static/media/vim.6c31f5008fbbc403e902.png",
     "static/media/Ubuntu-Regular.woff2": "/ResumePlus/static/media/Ubuntu-Regular.f0c95172522d9ce0e179.woff2",
     "static/media/linkedin.png": "/ResumePlus/static/media/linkedin.f20beebf50527ba1d65e.png",
@@ -27,12 +27,13 @@
     "static/media/python.png": "/ResumePlus/static/media/python.8cef7a09633a8af7127e.png",
     "static/media/fast-forward.png": "/ResumePlus/static/media/fast-forward.026dd689d2426687a430.png",
     "static/media/code.webp": "/ResumePlus/static/media/code.fcff9eeb7017479a6924.webp",
+    "static/media/TLogo.svg": "/ResumePlus/static/media/TLogo.bb2b3352b6edd8538ae4.svg",
     "index.html": "/ResumePlus/index.html",
     "main.658837cc.css.map": "/ResumePlus/static/css/main.658837cc.css.map",
-    "main.8206c740.js.map": "/ResumePlus/static/js/main.8206c740.js.map"
+    "main.24d33532.js.map": "/ResumePlus/static/js/main.24d33532.js.map"
   },
   "entrypoints": [
     "static/css/main.658837cc.css",
-    "static/js/main.8206c740.js"
+    "static/js/main.24d33532.js"
   ]
 }
