@@ -15,10 +15,11 @@
         }
       },
       {
-        "component" : "generic",
+        "component" : "link",
         "props" : {
-          "imageName" : "phone.png",
-          "info" : "+61 488 726 822"
+          "reference" : "https://github.com/otamam818",
+          "imageName" : "github.png",
+          "info" : "otamam818"
         }
       },
       {
@@ -39,9 +40,9 @@
       {
         "component" : "link",
         "props" : {
-          "reference" : "https://github.com/otamam818",
-          "imageName" : "github.png",
-          "info" : "otamam818"
+          "reference" : "http://www.tahminahmed.com/",
+          "imageName" : "TLogo.svg",
+          "info" : "Personal Webpage"
         }
       }
     ]
